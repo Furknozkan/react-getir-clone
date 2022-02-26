@@ -1,0 +1,28 @@
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.categories-title{
+    text-align: left;
+}
+.category-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+.category{
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.category-image img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(226, 220, 220);
+    border-radius: 15px;
+}
